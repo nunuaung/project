@@ -1,0 +1,108 @@
+.body{
+  overflow: hidden;
+}
+.section{
+  overflow: hidden;
+}
+.clearFix:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  content: "";
+}
+.green-box{
+  float: left;
+  width: 400px;
+  height: 400px;
+  background-color: green;
+}
+.red-box{
+  float: right;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+.yellow-box{
+  float: left;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+.heart-icn{
+  margin: 20px;
+}
+.icn_green{
+  margin: 30px;
+  color: green;
+}
+.icn_red{
+  margin: 30px;
+  color: red;
+}
+.icn_blue{
+  margin: 30px;
+  color: blue;
+}
+.content{
+  width: 50%;
+  margin: 0 auto;
+  background-color: pink;
+}
+h1{
+  padding: 20px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+p{
+  padding: 20px;
+  color: red;
+  font-size: 12px;
+  overflow: hidden;
+}
+.content2{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #1a7def;
+}
+.food{
+  width: 50%;
+  margin: 20px auto;
+}
+.food-box{
+  width: 20%;
+}
+.box1{
+  float: left;
+}
+.box2{
+  float: left;
+}
+.box3{
+  float: right;
+}
+.box1,.box2, .box3{
+  margin: 5%;
+}
+.kpng{
+  width: 50%;
+  margin: 20px auto;
+}
+img{
+  width: 100px;
+  height: 100px;
+  padding: 35px;
+}
+.GM{
+  position: absolute;
+  width: 1px;
+  top: 200px;
+  left: 40px;
+}
+h2{
+  display: inline-block;
+  width: 1px;
+  font-size: 34px;
+  color: #1a7def;
+}
